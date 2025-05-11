@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = 'uploads'
-app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # Limite de 100MB
+app.config['MAX_CONTENT_LENGTH'] = 250 * 1024 * 1024  # Limite de 100MB
 
 # Inicializar o banco de dados
 db = SQLAlchemy(app)
