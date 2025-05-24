@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
+    background-color: #3a7bed;
     color: white;
     display: flex;
     justify-content: center;
@@ -11,9 +11,10 @@ body {
 
 .container {
     text-align: center;
-    background-color: #444;
+    background-color: #84a7e56e;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 1px 1px 20px #8282e4;
     width: 100%;
     max-width: 600px;
 }
@@ -23,7 +24,7 @@ h1, h2, h3 {
 }
 
 input[type="file"] {
-    background-color: #555;
+    background-color: #5388e7;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -31,17 +32,17 @@ input[type="file"] {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #5388e7;;
     color: white;
-    padding: 10px 20px;
+    padding: 13px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #4b84eb;
 }
 
 ul {
